@@ -1,11 +1,11 @@
 # 任务一：AlexNet/ResNet在Caltech-101上的微调实验与对比
 
 本次实验的代码由以下Python文件构成，已上传至Github Repository（链接见文末）：
-- main.py\quad 加载数据，训练模型，绘制曲线
-- mainTensorBoard.py\quad 同main.py，但用TensorBoard代替matplotlib记录训练过程
-- caltech101.py\quad 加载Caltech101数据集的类
-- plot.py\quad 绘制Loss/Accuracy曲线的函数
-- test.py\quad 测试模型
+- main.py 加载数据，训练模型，绘制曲线
+- mainTensorBoard.py 同main.py，但用TensorBoard代替matplotlib记录训练过程
+- caltech101.py 加载Caltech101数据集的类
+- plot.py 绘制Loss/Accuracy曲线的函数
+- test.py 测试模型
 
 训练模型只需在main.py中修改必要的参数并运行即可，测试模型需移步至test.py运行。
 train.py会将训练得到的模型以二进制文件的形式保存为文件best_model.pth，
